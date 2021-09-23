@@ -22,7 +22,7 @@ function `crawler('Daily')` ,`crawler('Monthly')`, and `crawler('Weekly')` retur
 
 ### Method:
 
-一開始直接爬取網頁資料"https://cn.investing.com/equities/apple-computer-inc-historical-data"，但是bs4無法取得dropdown list的response.換一個方法。
+最初直接嘗試抓取網頁資料"https://cn.investing.com/equities/apple-computer-inc-historical-data" ，但是bs4無法取得dropdown list的response.換一個方法。
 
 在chrome開發者工具，找出"HistoricalDataAjax"為網頁請求的資料檔。為了重現chrome執行的request請求，在此複製cURL命令
 
