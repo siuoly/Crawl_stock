@@ -26,12 +26,14 @@ function `crawler('Daily')` ,`crawler('Monthly')`, and `crawler('Weekly')` retur
 
 在chrome開發者工具，找出"HistoricalDataAjax"為網頁請求的資料檔。為了重現chrome執行的request請求，在此複製cURL命令
 
-![image-20210924041013293](C:\Users\Siuol\AppData\Roaming\Typora\typora-user-images\image-20210924041013293.png)
+![](https://i.imgur.com/LZLfDKo.png)
+
 
 到[curl.trillworks](https://curl.trillworks.com/)轉換`curl command`為實際呼叫的python code。
 
-![image-20210924041504991](C:\Users\Siuol\AppData\Roaming\Typora\typora-user-images\image-20210924041504991.png)
+![](https://i.imgur.com/tXkfOSk.png)
+
 
 接著修改對應的日期請求格式。工作完成。
 
-![image-20210924041728087](C:\Users\Siuol\AppData\Roaming\Typora\typora-user-images\image-20210924041728087.png)
+![](https://i.imgur.com/UpjMQw2.png)
