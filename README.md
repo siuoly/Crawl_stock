@@ -15,7 +15,7 @@ pip install json5
 ### Usage
 
 ```
-python3.8 crawler.py
+python3.8 crawl.py
 ```
 
 function `crawler('Daily')` ,`crawler('Monthly')`, and `crawler('Weekly')` return corresponding json object.
